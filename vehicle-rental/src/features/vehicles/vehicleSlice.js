@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "https://vehicle-rental-8mce.onrender.com/vehicles";
+const API_URL = "https://vehicle-rental-2-5afq.onrender.com/vehicles";
 
 // GET
 export const fetchVehicles = createAsyncThunk(
